@@ -1,0 +1,19 @@
+# Versions used for the paper (Python 3.12). Install the torch/torchvision build matching your CUDA from pytorch.org.
+torch==2.13.0
+torchvision==0.28.0
+numpy==2.4.4
+scipy==1.18.0
+scikit-learn==1.9.0
+pillow==12.2.0
+matplotlib==3.10.9
+joblib==1.5.3
+ultralytics==8.4.132
+pycocotools==2.0.11
+torchmetrics==1.9.0
+# needed only by the zero-shot published fusion models (third_party/)
+timm==1.0.29
+einops==0.8.2
+kornia==0.8.3
+ftfy==6.3.1
+regex==2026.7.19
+# OpenAI CLIP for Text-IF: pip install git+https://github.com/openai/CLIP.git
